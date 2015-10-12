@@ -1,0 +1,1 @@
+-FRONTEND WEEK 2- day7 making a website responsive

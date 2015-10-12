@@ -1,0 +1,222 @@
+/**Layout for surf/ site
+
+/** only difference from one column is you add container and copy/paste attributes in the section and put in the container then add new section attributes
+
+/**start by zeroing out body- margin and padding
+/**/
+body {*/
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  width: 100%;
+
+}
+footer {
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+}
+/** when you inspect element, zeroing out the nav ul will remove the orange around the navs
+/**/
+
+/**the space btw nav and ul means that all the ul in the nav header/footer will be affected
+/**/
+nav {
+  width: 100%;
+}
+nav .container {
+  width: 80%;
+  font-family: sans-serif;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+ }
+
+ /**styling only the li elements in the nav
+ /**/
+nav li {
+  display: inline-block;
+  margin: 5px;
+  padding: 0px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+ nav li > a {
+   color: black;
+ }
+/*body > header > nav > div > img {
+  margin-left: 15%;
+}*/
+.container p img{
+  width: 60px;
+  margin-left: 15%;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.navbar-right {
+  padding-left: 20%;
+}
+
+.container > p {
+    display: inline-block;
+    width: 50%;
+  }
+/*.container {
+  font-family: sans-serif;
+}*/
+
+/** use the carrot to only affect the a links in the li --the li may eventually have other child elements like an img that you don't want to affect /
+/**/
+nav li > a{
+  text-decoration: none;
+  color: black;
+}
+nav li:hover {
+  background-color: white;
+}
+/**  margin: 0 auto with center everything within whatever width you give
+/**/
+.container {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+.container {
+  background:
+  /** top image blue/
+  /**/
+
+    linear-gradient(
+      rgba(0, 90, 215, 0.45),
+      rgba(0, 90, 215, 0.45)
+    ),
+    /* bottom, image */
+    url(https://images.unsplash.com/photo-1421151051865-b98b5f93dc13?q=80&fm=jpg&s=d20e18aa4d34f3fefa719211eab912b3) no-repeat center center fixed;
+    
+}
+.main-heading {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 55px;
+  color: white;
+  font-family: sans-serif;
+}
+.subtitle1 {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-family: sans-serif;
+}
+
+/*.container {
+  background: url(https://images.unsplash.com/photo-1421151051865-b98b5f93dc13?q=80&fm=jpg&s=d20e18aa4d34f3fefa719211eab912b3) no-repeat center center fixed;
+  background-size: cover;
+}*/
+/**  use vertical-align so that if you have more content in one section it lines up at the top
+/**/
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+
+}
+/**  use vertical-align so that if you have more content in one section it lines up at the top
+/**/
+.sidebar {
+  border: 1px black;
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 75px;
+    margin: 45px 0px 0px 25px;
+    align-items: center;
+}
+.sidebar > span{
+  padding-left: 5px;
+  color: blue;
+}
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+.sidebar li{
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.main_col {
+  vertical-align: top;
+  display: inline-block;
+  width:60%;
+}
+.title {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 45px;
+}
+.img-circle1 {
+    border-radius: 50%;
+    width: 25px;
+
+}
+.subtitle {
+  text-align: left;
+  display: inline-block;
+  color: blue;
+  font-size: 10px;
+}
+.timestamp {
+  text-align: left;
+  display: inline-block;
+  color: gray;
+  font-size: 10px;
+  text-decoration: underline;
+}
+.sidebar > p {
+  padding: 15px 25px 50px 35px;;
+  text-align: justify;
+}
+.sidebar > img:nth-child(6){
+  padding-top: 45px;
+}
+.sidebar_title {
+  color: blue;
+  margin-top: 25px;
+}
+
+blockquote {
+  color: blue;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+#button_wrapper{
+  position:relative;
+  top:0.6em;
+  padding-bottom: 35px;
+}
+.individual_button_wrapper_1{
+  display:inline-block;
+  background-color: #F2F2F2;
+}
+.individual_button_wrapper_2{
+  display:inline-block;
+  background-color:#F2F2F2;
+  margin-left:0.5em;
+}
+.individual_button_wrapper_3{
+  display:inline-block;
+  background-color:#2E9AFE;
+  margin-left:0.5em;
+}

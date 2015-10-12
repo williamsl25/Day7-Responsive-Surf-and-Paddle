@@ -1,0 +1,28 @@
+@media (max-width: 918px){
+  .navbar-right {
+    margin-top: 5%;
+    margin-left: 15%;
+
+  }
+  .container > p {
+    display: none;
+  }
+  .main_col {
+    vertical-align: top;
+    display: block;
+    width: 100%;
+
+  }
+  .sidebar {
+    border: 1px black;
+    display: block;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+  }
+  .sidebar > img:nth-child(6) {
+    width: 50%;
+  }
+
+
+}
