@@ -97,7 +97,7 @@ nav li:hover {
     ),
     /* bottom, image */
     url(https://images.unsplash.com/photo-1421151051865-b98b5f93dc13?q=80&fm=jpg&s=d20e18aa4d34f3fefa719211eab912b3) no-repeat center center fixed;
-    
+
 }
 .main-heading {
   text-align: center;
@@ -201,22 +201,31 @@ blockquote {
   font-size: 25px;
   font-family: sans-serif;
 }
-#button_wrapper{
+.button_wrapper a{
   position:relative;
-  top:0.6em;
   padding-bottom: 35px;
+  text-decoration: none;
+}
+.button_wrapper a:hover {
+  background-color: blue;
+  color: white;
+  padding-bottom: 0;
 }
 .individual_button_wrapper_1{
   display:inline-block;
   background-color: #F2F2F2;
+  margin-left:0.5em;
+
 }
 .individual_button_wrapper_2{
   display:inline-block;
   background-color:#F2F2F2;
   margin-left:0.5em;
+
 }
 .individual_button_wrapper_3{
   display:inline-block;
-  background-color:#2E9AFE;
+  background-color:#F2F2F2;
   margin-left:0.5em;
+
 }
